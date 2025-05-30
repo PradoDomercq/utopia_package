@@ -426,7 +426,7 @@ class ResultsProcessor:
                         ]
 
                         for proc in inpProc:
-                            if proc == "dry_deposition":
+                            if proc == "dry_deposition" or proc == "wet_deposition":
                                 position = self.surfComp_list.index(comp)
                                 df_inflows["k_" + proc] = df_inflows["k_" + proc].apply(
                                     lambda x: x[position] if isinstance(x, list) else x

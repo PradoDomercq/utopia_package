@@ -1,7 +1,7 @@
 import numpy as np
 
 # ---- Constants dependants of Temperature, Pressure, altitud. Have to be adapted to specific regions ------------
-muAir = 1.789e-5  # [kg−1.s−1], dynamic viscosity of the air (Heigth, Temp dependent)
+muAir = 1.789e-5  # [kg.m−1.s−1], dynamic viscosity of the air (Heigth, Temp dependent)
 rhoAir = 1.1438  # [kg.m-3], density of air (Heigth, Temp dependent)
 g0 = 9.81  # [m.s-2] gravitational acceleration on earth (Heigth dependent)
 
